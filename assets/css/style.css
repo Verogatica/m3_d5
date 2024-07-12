@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {font-family: "Roboto", sans-serif;}
+
+h4 {font-family:"Roboto Slab", serif;}
+
+.container {background-color: lightcyan;
+width: 680px;
+margin: auto;
+padding: 20px;
+}
+
+.lineainvitado {display: flex;
+    width: 480px;
+    align-items: center;
+    margin-bottom: 4px;
+    } 
+
+.botonestareas {display: flex;
+    flex-direction: row;
+    margin-left: auto;;}
+
+.idInvitado {padding-right: 16px;
+}
+
+.tareas {display: flex;
+}
+
+.input {
+    margin: auto 0 auto auto;
+    display: flex;
+    gap: 4px;  
+    }
+
+.containercard {display: flex;
+margin-top: 40px;}
+
+.lista-tareas {
+    margin-left: 40px;
+    }
+
+button {border: none;
+    padding: 4px 6px;
+    background-color: lightseagreen;
+    color: white;
+    font-size: 12px;
+}
+
+.lista-tareas button {background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;}
+
+.inputt { border: 1px solid lightgray;
+    width: 250px; }
+
+
+    .lineainvitado.confirmado {
+        background-color: rgba(144, 238, 144, 0.5);
+    }
+    
+    .botoneseliminar {
+        display: flex;
+        justify-content: flex-end;
+        gap: 8px;
+        margin-top: 40px;
+    }
